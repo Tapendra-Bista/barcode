@@ -1,0 +1,20 @@
+{
+  "name": "barcode",
+  "version": "1.0.0",
+  "description": "barcode practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    ,"start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsbarcode": "^3.11.5",
+    "nodemon": "^3.0.1"
+  }
+}
